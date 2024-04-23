@@ -1,4 +1,4 @@
-**Hello**🖐 **Automated Testing for Curahealthcare Demo Website with Selenium (Pytest, POM, HTML Reports, Jenkins Pipeline)**
+**Hello**🖐 **Automated Testing for browserStack Demo Website with Selenium (Pytest, POM, HTML Reports, Jenkins Pipeline)**
 
 This project tests various functionalities of the bstack(e-commerce) demo website, such as valid login, check favourites icon functionality, add to cart multiple products, removing products in add to cart, and deleting checking out products.
 ___________________________________________
@@ -24,14 +24,20 @@ Run commands:
 
 **To run this on jenkins**
 1. Add item name, click Pipeline and click OK
+
    ![img.png](img.png)
 2. Locate pipeline header and select pipeline script from SCM
+
    ![img_1.png](img_1.png)
 3. Choose GIT
+
    ![img_2.png](img_2.png)
 4. Paste the repo url and click and save
+
    ![img_4.png](img_4.png)
 5. Click build now
+   
+   ![img_5.png](img_5.png)
    
 
 
