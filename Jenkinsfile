@@ -8,7 +8,7 @@ pipeline{
         }
         stage("Install dependencies and setup"){
             steps{
-                bat 'python -m bstackVENV'
+                bat 'python -m venv bstackVENV'
                 bat 'bstackVENV\\Scripts\\activate && pip install -r requirements.txt'
             }
         }
