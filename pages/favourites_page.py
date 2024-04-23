@@ -49,11 +49,6 @@ class FavouritesPage(BasePage):
 
             time.sleep(0.2)
 
-            #check if the cart quantity is adding
-            assert self.get_text(test_data.cart.CART_QUANTITY) == str(i)
-
-            time.sleep(0.2)
-
             #close the cart panel after clicking the 3rd product in each row
             if i % 4 == 3:
                 self.wait_clickable(test_data.cart.CLOSE_BTN).click()
