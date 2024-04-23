@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3189905f-08d7-4260-a149-91ea28905837" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/browserStackDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/checkout_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/favourites_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/signin_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/base_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_checkout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_favourites_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_signin.py" afterDir="false" />
-    </list>
+    <list default="true" id="3189905f-08d7-4260-a149-91ea28905837" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Check out"){
             steps{
-                git 'https://github.com/cubesrepo/bsStackDemo-e-commerce-e-.git'
+                git 'https://github.com/cubesrepo/browserStack'
             }
         }
         stage("Install dependencies and setup"){
