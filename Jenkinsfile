@@ -14,7 +14,7 @@ pipeline{
         }
         stage("Run tests"){
             steps{
-                bat 'bstackVENV\\Scripts\\activate && pytest -v --html=report.html'
+                bat 'bstackVENV\\Scripts\\activate && pytest -v --html=report.html --headless'
             }
         }
     }
