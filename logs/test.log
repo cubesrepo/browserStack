@@ -1,0 +1,162 @@
+2025-10-27 14:27:43,712 [INFO] [test_order_page_details]: ===== Test session started =====
+2025-10-27 14:27:48,133 [INFO] LoginPage: Element is clickable: ('xpath', "//div[@class=' css-2b097c-container' and @id='username']")
+2025-10-27 14:27:48,134 [INFO] LoginPage: Element ('xpath', "//div[@class=' css-2b097c-container' and @id='username']") is clickable
+2025-10-27 14:27:48,519 [INFO] LoginPage: Typing demouser + Enter into Element ('xpath', "//div[@class=' css-2b097c-container' and @id='username']")
+2025-10-27 14:27:48,542 [INFO] LoginPage: Element is clickable: ('xpath', "//div[@class=' css-2b097c-container' and @id='password']")
+2025-10-27 14:27:48,542 [INFO] LoginPage: Element ('xpath', "//div[@class=' css-2b097c-container' and @id='password']") is clickable
+2025-10-27 14:27:48,866 [INFO] LoginPage: Typing testingisfun99 + Enter into Element ('xpath', "//div[@class=' css-2b097c-container' and @id='password']")
+2025-10-27 14:27:48,892 [INFO] LoginPage: Element is clickable: ('xpath', "//button[@id='login-btn']")
+2025-10-27 14:27:50,955 [INFO] LoginPage: URL is found: https://bstackdemo.com/?signin=true
+2025-10-27 14:27:50,955 [INFO] LoginPage: Current url: https://bstackdemo.com/?signin=true
+2025-10-27 14:27:50,986 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[1]")
+2025-10-27 14:27:50,986 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[1]")
+2025-10-27 14:27:51,279 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[1]") has been clicked
+2025-10-27 14:27:51,306 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:51,306 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:51,594 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:51,618 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:51,627 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.63")> has text: 1
+2025-10-27 14:27:51,642 [INFO] CartPage: Element is visible: ('css selector', "div[id='1'] div[class='val']")
+2025-10-27 14:27:51,653 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.64")> has text: $799.00
+2025-10-27 14:27:51,672 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[2]")
+2025-10-27 14:27:51,672 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[2]")
+2025-10-27 14:27:51,948 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[2]") has been clicked
+2025-10-27 14:27:51,986 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:51,986 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:52,263 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:52,282 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:52,292 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.66")> has text: 2
+2025-10-27 14:27:52,317 [INFO] CartPage: Element is visible: ('css selector', "div[id='2'] div[class='val']")
+2025-10-27 14:27:52,324 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.68")> has text: $699.00
+2025-10-27 14:27:52,342 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[3]")
+2025-10-27 14:27:52,342 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[3]")
+2025-10-27 14:27:52,625 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[3]") has been clicked
+2025-10-27 14:27:52,642 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:52,642 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:52,943 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:52,973 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:52,980 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.63")> has text: 3
+2025-10-27 14:27:52,992 [INFO] CartPage: Element is visible: ('css selector', "div[id='3'] div[class='val']")
+2025-10-27 14:27:53,004 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.70")> has text: $1099.00
+2025-10-27 14:27:53,032 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[4]")
+2025-10-27 14:27:53,032 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[4]")
+2025-10-27 14:27:53,296 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[4]") has been clicked
+2025-10-27 14:27:53,322 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:53,322 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:53,596 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:53,612 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:53,622 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.71")> has text: 3
+2025-10-27 14:27:53,658 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[4]")
+2025-10-27 14:27:53,659 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[4]")
+2025-10-27 14:27:53,942 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[4]") has been clicked
+2025-10-27 14:27:53,973 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:53,973 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:54,275 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:54,299 [INFO] CartPage: Element is visible: ('css selector', "div[id='4'] div[class='val']")
+2025-10-27 14:27:54,304 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.74")> has text: $999.00
+2025-10-27 14:27:54,326 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[5]")
+2025-10-27 14:27:54,326 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[5]")
+2025-10-27 14:27:54,630 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[5]") has been clicked
+2025-10-27 14:27:54,657 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:54,657 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:54,922 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:54,962 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:54,974 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.79")> has text: 5
+2025-10-27 14:27:54,992 [INFO] CartPage: Element is visible: ('css selector', "div[id='5'] div[class='val']")
+2025-10-27 14:27:55,006 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.80")> has text: $599.00
+2025-10-27 14:27:55,032 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[6]")
+2025-10-27 14:27:55,032 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[6]")
+2025-10-27 14:27:55,325 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[6]") has been clicked
+2025-10-27 14:27:55,345 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:55,345 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:55,627 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:55,648 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:55,654 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.63")> has text: 6
+2025-10-27 14:27:55,672 [INFO] CartPage: Element is visible: ('css selector', "div[id='6'] div[class='val']")
+2025-10-27 14:27:55,672 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.83")> has text: $699.00
+2025-10-27 14:27:55,692 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[7]")
+2025-10-27 14:27:55,692 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[7]")
+2025-10-27 14:27:55,967 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[7]") has been clicked
+2025-10-27 14:27:55,992 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:55,992 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:56,274 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:56,292 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:56,305 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.85")> has text: 6
+2025-10-27 14:27:56,324 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[7]")
+2025-10-27 14:27:56,324 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[7]")
+2025-10-27 14:27:56,607 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[7]") has been clicked
+2025-10-27 14:27:56,622 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:56,622 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:56,904 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:56,929 [INFO] CartPage: Element is visible: ('css selector', "div[id='7'] div[class='val']")
+2025-10-27 14:27:56,936 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.88")> has text: $549.00
+2025-10-27 14:27:56,954 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[8]")
+2025-10-27 14:27:56,959 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[8]")
+2025-10-27 14:27:57,239 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[8]") has been clicked
+2025-10-27 14:27:57,266 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:57,267 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:57,557 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:57,582 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:57,592 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.90")> has text: 7
+2025-10-27 14:27:57,612 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[8]")
+2025-10-27 14:27:57,612 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[8]")
+2025-10-27 14:27:57,912 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[8]") has been clicked
+2025-10-27 14:27:57,942 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:57,942 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:58,238 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:58,256 [INFO] CartPage: Element is visible: ('css selector', "div[id='8'] div[class='val']")
+2025-10-27 14:27:58,262 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.93")> has text: $499.00
+2025-10-27 14:27:58,292 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[9]")
+2025-10-27 14:27:58,292 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[9]")
+2025-10-27 14:27:58,578 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[9]") has been clicked
+2025-10-27 14:27:58,608 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:58,609 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:58,882 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:58,905 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:58,912 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.97")> has text: 9
+2025-10-27 14:27:58,939 [INFO] CartPage: Element is visible: ('css selector', "div[id='9'] div[class='val']")
+2025-10-27 14:27:58,952 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.99")> has text: $649.00
+2025-10-27 14:27:58,975 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[10]")
+2025-10-27 14:27:58,975 [INFO] CartPage: Element is clickable: ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[10]")
+2025-10-27 14:27:59,261 [INFO] CartPage: Element ('xpath', "(//div[@class='shelf-item__buy-btn'][normalize-space()='Add to cart'])[10]") has been clicked
+2025-10-27 14:27:59,289 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:59,289 [INFO] CartPage: Element is clickable: ('xpath', "//div[@class='float-cart__close-btn']")
+2025-10-27 14:27:59,562 [INFO] CartPage: Element ('xpath', "//div[@class='float-cart__close-btn']") has been clicked
+2025-10-27 14:27:59,587 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:59,592 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.63")> has text: 10
+2025-10-27 14:27:59,618 [INFO] CartPage: Element is visible: ('css selector', "div[id='10'] div[class='val']")
+2025-10-27 14:27:59,622 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.102")> has text: $999.00
+2025-10-27 14:27:59,634 [INFO] CartPage: Element is visible: ('xpath', "//p[@class='sub-price__val']")
+2025-10-27 14:27:59,642 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.103")> has text: $ 7590.00
+2025-10-27 14:27:59,652 [INFO] CartPage: Element is visible: ('xpath', "//span[@class='bag__quantity']")
+2025-10-27 14:27:59,662 [INFO] CartPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.63")> has text: 10
+2025-10-27 14:27:59,672 [INFO] CheckoutPage: Element is clickable: ('xpath', "//div[@class='buy-btn' and text() ='Checkout']")
+2025-10-27 14:27:59,681 [INFO] CheckoutPage: Element is clickable: ('xpath', "//div[@class='buy-btn' and text() ='Checkout']")
+2025-10-27 14:27:59,941 [INFO] CheckoutPage: Element ('xpath', "//div[@class='buy-btn' and text() ='Checkout']") has been clicked
+2025-10-27 14:28:00,492 [INFO] CheckoutPage: Element is clickable: ('xpath', "//input[@id='firstNameInput']")
+2025-10-27 14:28:00,492 [INFO] CheckoutPage: Typing into 'John David' into ('xpath', "//input[@id='firstNameInput']")
+2025-10-27 14:28:00,612 [INFO] CheckoutPage: Element is clickable: ('xpath', "//input[@id='lastNameInput']")
+2025-10-27 14:28:00,612 [INFO] CheckoutPage: Typing into 'Harper' into ('xpath', "//input[@id='lastNameInput']")
+2025-10-27 14:28:00,732 [INFO] CheckoutPage: Element is clickable: ('xpath', "//input[@id='addressLine1Input']")
+2025-10-27 14:28:00,732 [INFO] CheckoutPage: Typing into 'Address1234' into ('xpath', "//input[@id='addressLine1Input']")
+2025-10-27 14:28:00,838 [INFO] CheckoutPage: Element is clickable: ('xpath', "//input[@id='provinceInput']")
+2025-10-27 14:28:00,838 [INFO] CheckoutPage: Typing into 'Golden state' into ('xpath', "//input[@id='provinceInput']")
+2025-10-27 14:28:00,956 [INFO] CheckoutPage: Element is clickable: ('xpath', "//input[@id='postCodeInput']")
+2025-10-27 14:28:00,956 [INFO] CheckoutPage: Typing into '55123' into ('xpath', "//input[@id='postCodeInput']")
+2025-10-27 14:28:01,042 [INFO] CheckoutPage: Element is clickable: ('xpath', "//button[@id='checkout-shipping-continue']")
+2025-10-27 14:28:01,042 [INFO] CheckoutPage: Element is clickable: ('xpath', "//button[@id='checkout-shipping-continue']")
+2025-10-27 14:28:01,320 [INFO] CheckoutPage: Element ('xpath', "//button[@id='checkout-shipping-continue']") has been clicked
+2025-10-27 14:28:06,458 [INFO] CheckoutPage: URL is found: https://bstackdemo.com/confirmation
+2025-10-27 14:28:06,459 [INFO] CheckoutPage: Current url: https://bstackdemo.com/confirmation
+2025-10-27 14:28:06,474 [INFO] CheckoutPage: Element is visible: ('xpath', "//legend[@id='confirmation-message']")
+2025-10-27 14:28:06,480 [INFO] CheckoutPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.122")> has text: Your Order has been successfully placed.
+2025-10-27 14:28:06,502 [INFO] CheckoutPage: Element is clickable: ('xpath', "//button[normalize-space()='Continue Shopping »']")
+2025-10-27 14:28:06,612 [INFO] OrderPage: Element is clickable: ('xpath', "//strong[normalize-space()='Orders']")
+2025-10-27 14:28:07,193 [INFO] OrderPage: Element is visible: ('xpath', "(//span[@class='a-color-secondary value'][normalize-space()='October 27, 2025'])[1]")
+2025-10-27 14:28:07,198 [INFO] OrderPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.136")> has text: October 27, 2025
+2025-10-27 14:28:07,214 [INFO] OrderPage: Element is visible: ('xpath', "(//span[normalize-space()='$7590'])[1]")
+2025-10-27 14:28:07,220 [INFO] OrderPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.137")> has text: $7590
+2025-10-27 14:28:07,222 [INFO] OrderPage: Element is visible: ('xpath', "(//span[@class='a-color-secondary value'][normalize-space()='demouser'])[1]")
+2025-10-27 14:28:07,235 [INFO] OrderPage: The element: <selenium.webdriver.remote.webelement.WebElement (session="3d1fcbb253efa858edfe52ae72c98952", element="f.C3A585402BA77FFA0575BDC521E1101C.d.7E5EE0A599E1D7C9FDF7078C3CA675D4.e.138")> has text: demouser
+2025-10-27 14:28:11,519 [INFO] [test_order_page_details]: ===== Test session ended =====
+
