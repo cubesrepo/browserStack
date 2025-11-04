@@ -1,4 +1,4 @@
-**Hello**🖐 **Automated Testing for browserStack Demo Website with (Selenium, Pytest, Page Object Model(POM), Allure Reports, Jenkins Pipeline)**
+**Hello**🖐 **Automated Testing for browserStack (E-COMMERCE) Demo Website with (Selenium, Pytest, Page Object Model(POM), Allure Reports, Jenkins Pipeline)**
 
 This project automates the testing of BStack E-commerce, focusing on essential user journeys such as login, adding items to cart, checkout, and order verification.
 
